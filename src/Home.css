@@ -1,0 +1,1397 @@
+body{
+  cursor: pointer;
+} 
+.mdl-layout__header-row .mdl-navigation__link {
+    display: flex ;
+}
+ul {list-style: none !important}
+.mdl-card{
+    width: auto !important;
+    min-height: auto !important;
+}
+
+
+/*body */
+
+.landing-grid .container{
+    padding: 0px 50px !important;
+}
+
+.headerCard {
+    top: -25px !important;
+}
+.headerCard-user{
+    background-color:#fff;
+    display:flex;
+    margin: -25px 0px;
+    top: -30px !important;
+    
+}
+.headerCard{
+        background-color: #6a819b !important;
+}
+.headerCard-text .transform{
+    transform:translateY(-100px);
+    position:relative;
+    z-index:-1;
+    height:10px;
+    padding:0;
+    transition:.4s
+}
+.mdl-chip__text p{
+        margin: 5px 20px;
+}
+.mdl-chip--contact{
+    margin: 5px 0px 0px 10px ;
+}
+    
+.headerCard-text a{
+    cursor:pointer;
+    color:#000 !important;
+}
+.headerCard-text p{
+    color:#fff;
+    font-size:14px;
+    line-height:16px;
+    margin:0;padding:0
+}
+.headerCard-text p br{
+    display:none !important;
+}
+.headerCard-text.br-show{
+    background:#91b9e6;
+}
+.headerCard-text.br-show p br{
+    display:block;
+}
+
+.join-btn{
+    display: flex !important;
+    margin-right: -500px ;
+    float: right !important;
+    margin-top: -40px;
+}
+.closeButton{
+    float: right !important;
+    margin: -60px -285px !important ;
+}
+ a {
+    color: #4a4a4a !important;
+}
+.join-btn li:not(:last-child){
+    margin-right:8px
+}
+.join-btn li:first-child a{
+    background:#004fc1;
+    color:#fff !important;
+}
+.join-btn li:first-child a:hover{
+    background:0 0;
+    color:#004fc1;
+    transition:.2s
+}
+.join-btn li a{
+    line-height:34px;
+    border-radius:4px;
+    background:0 0;
+    border:.5px solid #004fc1;
+    font-size:14px;
+    text-align:center;
+    padding:9px 15px;
+    transition:.2s;
+    text-decoration:none !important;
+    color:#004fc1
+}
+.join-btn li a:hover{
+    background:#004fc1;
+    color:#fff;
+    transition:.2s
+}
+
+
+.user-skills-chip{
+    float: right;
+    margin-right: -12px !important;
+    
+}
+
+
+.main-title-user-profile .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004fc1;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 15px;
+    margin: -5px 20px 0px 0px;
+    border-radius: 4px;
+    border: 1px solid #004fc1;
+    background: 0 0;
+}
+.blockchain-verified-icon img {
+    
+    padding-bottom: 7px;
+    width: 52px;
+    margin: -45px 10px 0px 15px;
+}
+.blockchain-verified-icon p {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #004fc1;
+    margin: 0px 25px 0px 0px;
+}
+.user-pic img{
+    margin: 0px -25px 0px -25px;
+    height: 210px;
+}
+.main-title-user-profile .message img {
+    margin-right: 6px;
+    width: 11px;
+}
+
+.verified-tick  img {
+    width: 18px;
+    height: 18px;
+}
+.copy-icon-url span img{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+.main-title-user-profile-mobile  .message-mobile{
+    display: none ;
+}
+.user-startup-badge-mobile .mobile-view img{
+    display: none;
+}
+.userEndorse-card{
+    min-height: auto !important ;
+}
+.endorse-experience-section-icons {
+    display: flex;
+    align-items: flex-end;
+        margin: -10px 10px;
+}
+.endorse-experience-section-icons .endorse-user-btn {
+    margin: 0;
+}
+.endorse-experience-section-icons button {
+    width: 115px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 38px;
+    border-radius: 4px;
+    border: 1px solid #004fc1;
+    color: #004fc1;
+    background: #fff;
+        margin: 5px 0px;
+}
+.endorse-experience-section-icons button.verification-btn {
+    background: #004fc1;
+    color: #fff;
+    margin-left: 30px;
+    width: 146px;
+    padding: 0 14px;
+}
+
+.endorse-experience-section-icons img {
+    float: left;
+    padding: 9px 20px;
+}
+.user-startup-badge img {
+    height: 34px;
+}
+
+.desktop-view {
+    display: block;
+}
+
+.endorse-user-btn p {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 11px;
+    color: #d2d2d2;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+}
+
+.endorsement-component {
+    text-align: center;
+}
+.referral-n-verified-divider {
+    height: 52px;
+    width: 1px;
+    background-color: #cbcbcb;
+    margin: 0 20px 0 25px;
+}
+.referrals-component-icon {
+    display: flex;
+}
+.referrals-component-icon li {
+    margin: 0 1px;
+    display: inline-flex;
+    align-items: flex-end;
+    position: relative;
+    flex: 0 0 10px;
+    max-width: 10px;
+}
+.rating-medium {
+    background: #f7be6c;
+}
+.rating-high {
+    background: #ff8100;
+}
+.rating-highest {
+    background: #d86d00;
+}
+.percentage-txt {
+    margin-top: 0;
+    text-align: center;
+}
+.percentage-txt p {
+    color: #959595;
+    font-size: 10px;
+    line-height: 12px;
+    display: inline-block;
+    position: relative;
+}
+.referral-n-verified-divider {
+    height: 52px;
+    width: 1px;
+    background-color: #cbcbcb;
+    margin: 0 20px 0 25px;
+}
+.endorsement-component {
+    text-align: center;
+}
+.c100.small {
+    font-size: 42px;
+}
+.c100 {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+.c100 span {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: auto;
+    right: 0;
+    line-height: 3.7em;
+    font-size: 10px;
+    color: #2bc060;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    -moz-transition-property: .2s;
+    -o-transition-property: .2s;
+    -webkit-transition-property: .2s;
+    transition-property: .2s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    z-index: 99;
+}
+.slice {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0,1em,1em,.5em);
+}
+.p19 .bar {
+    -moz-transform: rotate(68.4deg);
+    -o-transform: rotate(68.4deg);
+    -ms-transform: rotate(68.4deg);
+    -webkit-transform: rotate(68.4deg);
+    transform: rotate(68.4deg);
+}
+.main-title-user-profile {
+    margin: 0px 0px 0px 620px;
+}
+.user-profile-details h1{
+        font-size: 24px;
+    margin: 16px 0 5px;
+    display: inline-block;
+    color: #2b2e34;
+    font-weight: 500;
+    line-height: 1;
+}
+.user-profile-details .user-job-designation h4{
+    font-size: 14px;
+    color: #393e48;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0px 0px;
+}
+
+.percentage-txt p {
+    color: #959595;
+    font-size: 10px;
+    line-height: 12px;
+    display: inline-block;
+    position: relative;
+}
+.percentage-txt p img {
+    width: 9px;
+    position: absolute;
+    right: -11px;
+    bottom: 2px;
+}
+.endorsement-section {
+    margin-top: 12px;
+    padding: 22px;
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 100%;
+}
+
+.add-skill-profile-page {
+    padding: 20px 0px 0px 10px;
+    display: inline-block;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+.headerCard-user-endorse-quote{
+    padding: 0px 0px !important;
+    
+}
+.mdl-card__supporting-text{
+    width: auto !important;
+
+}
+.box-shadow-div {
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    display: -webkit-box;
+}
+
+.intro-endorse-div {
+    background: #ecf5ff url('https://springrole.com/images/artwork_skillendorsement.png') no-repeat right center/90px;
+    padding: 14px 0;
+    margin: -20px -20px 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.rating-low {
+    background: #ffe1be;
+}
+.rating-lowest {
+    background: #f6efed;
+}
+.rating-highest {
+    background: #d86d00;
+}
+
+.intro-endorse-div h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #81a0b8;
+    font-weight: 300;
+    margin: 0 0 14px;
+}
+.skill-main h2 {
+    display: inline-block;
+    margin: 0 0 5px;
+    color: #393e48;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.intro-endorse-div a {
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    color: #004fc1;
+    width: 104px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ .skill-section.card .skill-section-child-div {
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 0 0 19px;
+    margin: 0 0 19px;
+}
+.skill-section .skill-section-child-div {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+ .skill-section.card .skill-name {
+    background: 0 0;
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+
+.rating-color-div.tabs {
+    width: 100%;
+    margin: 0 -40px 10px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-color-div {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.left span:nth-child(1) {
+    z-index: calc(9*1 + 10);
+    margin-left: calc(0px - 5px);
+    border: 2px solid #fff;
+}
+
+.rating-color-div.tabs li:first-child span {
+    border-radius: 8px 0 0 8px;
+}
+
+.rating-color-div.tabs li span {
+    padding: 0;
+    display: inline-block;
+    width: 38px;
+    height: 8px;
+    border-radius: 0;
+    border-right: 1px solid #fff;
+}
+
+.rating-lowest {
+    background: #f6efed;
+}
+.rating-color-div.tabs li span.active {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    height: 13px;
+    width: 40px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.3);
+    margin: -2px -4px;
+    position: relative;
+    z-index: 9;
+}
+.rating-color-div.tabs li span {
+    padding: 0;
+    display: inline-block;
+    width: 38px;
+    height: 8px;
+    border-radius: 0;
+    border-right: 1px solid #fff;
+}
+
+.rating-low {
+    background: #ffe1be;
+}
+.spring-logo{
+    margin: -55px 10px 0px 0px;
+}
+
+.rating-medium {
+    background: #f7be6c;
+}
+.rating-high {
+    background: #ff8100;
+}
+ .skill-section-child-div .endorsement-people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+   .left {
+    display: flex;
+    margin: 0;
+    flex: 0;
+    
+}
+
+.left span {
+    width: 28px;
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    height: 28px;
+    display: inherit;
+    cursor: pointer;
+}
+
+ .left span img:nth-child(1){
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+}
+.endorsement-popup-selector img{
+    margin: 25px 0px 0px 0px;
+}
+.users-name{
+        word-break: break-all;
+    width: 70%;
+    margin: -10px 0px 0px 0px;
+    float: right;
+}
+.skill-section span {
+    border-radius: 21.29px;
+    padding: 4px 0px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.skill-section-child-div .endorsement-people .right {
+    font-size: 10px;
+    color: #4a4a4a;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 11px;
+}
+.skill-section-child-div .endorsement-people .right .pointer {
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0;
+}
+
+ .skill-section-child-div .endorsement-people .right .remove-atag {
+    font-size: 10px;
+    color: #4a4a4a;
+    display: -webkit-inline-box;
+    text-decoration: none !important;
+    padding: 0;
+}
+ .note-div {
+    background-color: #f7f7f7;
+    margin: 0 -20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ .note-div p {
+    color: #4a4a4a;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 7px 0;
+}
+
+.work-experience-profile-content {
+    margin-bottom: 0;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+}
+.work-experience-employee-section.verify {
+    background: #ecf5ff;
+    border: none !important;
+}
+.work-experience-employee-section {
+    justify-content: space-between;
+        padding: 30px 20px 20px 30px;
+    align-items: flex-start;
+}
+.work-experience-employee-section .verify-div-section {
+    display: flex;
+}
+.work-experience-employee-section .verify-div-section .left {
+    display: flex;
+    flex: 1;
+}
+.work-experience-company-logo-div.verify {
+    border: 6px solid #ecf5ff;
+    border-radius: 2px;
+}
+.work-experience-company-logo-div {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-right: 27px;
+}
+.user-work-exp-profile-title-education h2{
+        margin: -20px 0px 0px 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.mdl-grid{
+    padding: 0px 30px !important;
+    margin: 0px 0px !important;
+}
+a {
+    text-decoration: none !important;
+}
+.work-experience-company-logo-div img {
+    height: 100%;
+    object-fit: contain;
+}
+.work-experience-employee-section .verify-div-section .left .work-experience-right-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.work-experience-employee-section .verify-div-section .left .work-experience-company-parent-section {
+    position: relative;
+    flex: 1;
+    padding-right: 20px;
+}
+.work-experience-company-employee-name-section h3 {
+    color: #4a4a4a;
+    line-height: 18px;
+    display: inline-block;
+    width: auto;
+    font-size: 12px;
+    padding: 0;
+}
+.work-experience-company-location-section h5 {
+    font-size: 12px;
+    color: #959595;
+    line-height: 20px;
+    margin: 0;
+    display: block;
+}
+.work-experience-company-location-section{
+    margin-top: 0px;
+}
+
+.work-description-div {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    padding-left: 36px;
+    word-break: break-all;
+}
+.worked-on-new {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.worked-on-new .work-experience-worked-on:not(:last-child) {
+    margin-bottom: 12px;
+}
+.worked-on-new .work-experience-worked-on {
+    color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #f5f7f8;
+    margin: 0 12px 0 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.worked-on-new h6 {
+    color: #959595;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: .71px;
+    margin-right: 11px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+.skill-section .skill-section-child-div {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.worked-on-new .work-experience-worked-on span {
+    padding: 0 16px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.worked-on-skill span {
+    font-size: 14px;
+}
+.user-work-exp-profile-title {
+    display: flex;
+    margin: 0 0 13px;
+}
+.user-work-exp-profile-title h2 {
+    text-align: left;
+    margin: -20px 0px 0px 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.user-work-exp-profile-title-skills h2 {
+    text-align: left;
+    margin: -8px 0px 0px 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.github-profile-card-div {
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.16);
+    background-color: #fff;
+}
+.github-profile-card-div .github-profile-particular-section {
+    padding: 32px 66px;
+    border-bottom: 1px solid #f5f7f8;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section {
+    display: flex;
+    margin-bottom: 35px;
+}
+.github-profile-card-div .github-profile-card-divLanguage {
+    border-top: #d2d2d2;
+    padding: 26px 0 27px;
+    display: flex;
+    justify-content: center;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChildImg {
+    margin-right: 8px;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChildImg img {
+    width: 14px;
+    height: 15px;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section .github-profile-parts-section .github-profile-parts-values-section h4 {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: -20px 30px;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section .github-profile-parts-section .github-profile-parts-values-section p {
+    color: grey;
+    font-size: 10px;
+    line-height: 1.2;
+        margin: 15px 20px;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section .github-profile-parts-section .github-profile-parts-image {
+    margin-right: 8px;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section .github-profile-parts-section .gitStar img {
+    width: 13px;
+}
+.github-profile-card-div .github-profile-particular-section .github-profile-particular-child-section .github-profile-parts-section .gitRepository img {
+    width: 10px;
+}
+.user-work-exp-profile-title-github h2 {
+    text-align: left;
+    margin: -8px 0px 0px 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.github-profile-card-div .github-profile-card-divLanguage {
+    border-top: #d2d2d2;
+    padding: 26px 0 27px;
+    display: flex;
+    justify-content: center;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChildImg {
+    margin-right: 8px;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChildImg img {
+    width: 14px;
+    height: 15px;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChild h3 {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+        margin: -10px 0px;
+}
+.github-profile-parts-section{
+    margin: 0px 20px;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChild p {
+    color: #4a4a4a;
+    font-size: 10px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.github-profile-card-div .github-profile-card-divLanguage .github-profile-card-divLanguageChild a {
+    color: #004fc1;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.headerCard-user-endorse-quote h3.user-bio{
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    letter-spacing: normal;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.work-experience-profile-content .worked-on-content-div.worked-on-content-div-new {
+    width: 90%;
+}
+.worked-on-content-div-new {
+    color: #959595;
+    font-size: 12px;
+    line-height: 18px;
+    clear: both;
+    position: relative;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.education-content:last-child {
+    border-bottom: none !important;
+}
+.education-content {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #d2d2d2;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.16);
+}
+.education-content .work-experience-employee-section:last-child {
+    border-bottom: none !important;
+}
+.education-content .work-experience-employee-section {
+    padding: 30px 30px 49px;
+    border-bottom: 1px solid #d2d2d2;
+    position: relative;
+}
+
+.education-content .work-experience-company-parent-section {
+    flex: 1;
+    position: relative;
+}
+.education-content .education-main-section {
+    display: flex;
+    align-items: flex-start;
+        border-bottom: 1px solid #d2d2d2;
+}
+.education-content .education-main-section .education-left-section {
+    width: 50px;
+    margin-right: 50px;
+    width: 68px;
+    height: 68px;
+}
+.education-content .work-experience-company-employee-name-section {
+    display: inline-block;
+}
+.education-content .work-experience-company-employee-name-section h3 {
+    color: #4a4a4a;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding-left: 0px;
+}
+.work-experience-employee-section .verify-div-section .right ul li h3 {
+    font-size: 8px;
+    color: #959595;
+    line-height: 11px;
+    text-align: left;
+}
+.work-experience-employee-section .verify-div-section .right ul li h3 .italic {
+    margin: 10px 8px;
+    word-break: break-all;
+    float: right;
+}
+.work-experience-company-employee-name-section h3 {
+    color: #4a4a4a;
+    line-height: 18px;
+    display: inline-block;
+    width: auto;
+    font-size: 12px;
+    padding: 0;
+}
+.company-name{
+    margin : 0px 0px;
+}
+.work-experience-company-location-section h4 {
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.work-experience-verify-div li span img{
+    margin: 0px 0px;
+    width: 20px;
+}
+.work-experience-verify-div li h3{
+       float: right;
+    margin: 0px 0px 0px 0px;
+}
+.work-experience-employee-section .verify-div-section .right ul li span {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.education-content h5 {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-left: 0;
+}
+.education-left-section span img{
+    width: 90px;
+    height: 90px;
+    margin: 27px 10px;
+}
+.work-experience-company-location-section h5 {
+    font-size: 12px;
+    color: #959595;
+    line-height: 20px;
+    margin: 0;
+    display: block;
+}
+.education-content h6 {
+    color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.education-content p {
+    color: #4a4a4a;
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+
+/*Footer */
+.footer-buttom{
+    background-color:#1d2233;
+    padding:50px 0 0;
+    margin-top:15%;
+    clear:both;
+    display:inline-block;
+    width:100%
+}
+.footer-row {
+    width: 100%;
+    margin: auto;
+}
+.footer-links h5{
+    color:#fff;
+    margin-bottom:19px;
+    opacity:.3
+}
+.footer-links a{
+    color:#fff;
+    font-size:14px;
+    font-weight:300;
+    display:block;
+    padding:8px 0;
+    opacity:.8
+}
+.footer-springrole{
+    margin:121px 0 12px
+}
+.footer-springrole span>a{
+    opacity:.5;
+    font-size:14px;
+    font-weight:100;
+    color:#fff;
+    letter-spacing:.5px;
+    padding:0 5px
+}
+.landing-grid .experience-page-grid .header-grid{
+    width: 100% ;
+    margin:auto;
+}
+.header-main{
+    height: 67px;
+     width:100%;
+     position: relative;
+}
+.header-navigation{
+    margin: 0px 700px !important;
+}
+.springrole-logo{
+    width:117px;
+    padding-left:20px;
+}
+.headerCard{
+    width: 100% ;
+    height: 80px;
+    margin: auto;
+    background:#6a819b ;
+
+}
+.user-startup-badge-mobile  img{
+    display: none;
+}
+.headerCard-text .headerCard-user-endorse .headerCard-user-endorse-quote{
+    width:100% !important;
+}
+.user-pic-card{
+    width: 1140px;
+    margin: auto;
+}
+.headerCard-user{
+    width:100%;
+    
+}
+.user-avatar-url{
+    width: 190px;
+}
+.userEndorse-card .userEndorse-card-quote-bio{
+    width: 1140px;
+    margin: auto;
+    min-height:80px;
+}
+
+.userEndorse-card-quote{
+ 
+     margin: 0px 0px; 
+     
+}
+.headerCard-user-endorse-quote-github{
+    padding: 0px 0px;
+}
+.border-bottom {
+    width: 80%;
+    height: 1px;
+    display: none;
+    background: #fff;
+    opacity: .5;
+    margin: 35px auto;
+}
+
+.footer-springrole-div span>a {
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: .5px;
+    padding: 0 5px;
+}
+
+.border-right {
+    border-right: solid 1px #97979780;
+}
+
+
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+@media only screen and ( max-width: 1024px) {
+    .footer-springrole-div span>a {
+        font-size: 11.1px;
+    }
+    .mdl-grid {
+        padding: 0px 8px !important;
+        margin: 0px 0px !important;
+    }
+    .user-work-exp-profile-title h2 {
+        margin: -20px 0px 0px 62px !important;
+    }
+    .user-work-exp-profile-title-skills h2 {
+            margin: -8px 1px 0px -50px !important;
+    }
+    .user-pic img{
+        margin: 0px 0px 0px 50%;
+
+    }
+    .headerCard-text{
+        width: 100% ;
+    }
+    .mdl-cell {
+        margin: 8px 0px !important;
+    }
+    .user-pic-card{
+        box-shadow: none !important ;
+    }
+    .experience-page-grid{
+        padding: 0px ;
+        display: flex ;
+        margin: 0 auto 0 3px ;
+    }
+    .work-experience-employee-section{
+        padding: 0px 0px 0px 0px ;
+
+    }
+    .header-navigation .join-btn{
+        display: none !important ;
+    }
+    .userEndorse-card-quote{
+        margin: 0px 0px !important;
+        float: none !important ;
+    }
+    
+    .user-pic-card .headerCard-user{
+        padding-top: 14px ;
+        display: inline-block ;
+    }
+    .userEndorse-card{
+        height: auto ; 
+        
+    }
+
+    .user-work-exp-profile-title{
+            margin: 5px -69px 0px ;
+    }
+    .work-description-div{
+        padding-left:  15px ;
+        word-wrap: normal;
+    }
+    .work-experience-employee-section .verify-div-section .left .work-experience-company-parent-section{
+        padding-right: 0px ;
+    }
+    .work-experience-company-location-section h4{
+        font-size: 12px ;
+    }
+
+    .user-pic-card{
+        width: 100% !important ;
+    }
+    .header-main{
+        width: auto ;
+        margin: 0px 0px 0px 0px;
+    }
+    .headerCard{
+        
+        height: auto ;
+        min-height: auto ;
+    }
+    .user-work-exp-profile-title-skills{
+            margin: 0px 0px 0px 55px ;
+    }
+    
+    .userEndorse-card-quote-bio{
+        min-height: auto ;
+        
+    }
+    .container-experience{
+
+        padding: 0px 0px !important;
+    }
+    .headerCard-text p {
+        font-size: 12px ;
+        text-align: center ;
+
+    }
+    .springrole-logo{
+            margin: 0px 0px 0px -55px ;
+    }
+    .join-btn{
+        margin-top: 40px ;
+    
+        margin-right: 20px ;
+        flex-grow: 1 ;
+        justify-content: flex-end ;
+        align-items: center ;
+        width: 100% ;
+    }
+    .closeButton{
+        position: absolute ;
+        top: 0px ;
+        right: 0px ;
+    }
+    .close-btn{
+        background: none !important ;
+        position: absolute ;
+        top: 0px ;
+        right: 0px ;
+        cursor: pointer ;
+    }
+    .user-pic{
+        width: 50% ;
+        margin: auto ;
+    }
+    .headerCard-user{
+        height: auto ;
+    }
+    .user-profile-details h1 {
+    font-size: 24px ;
+    margin: 0px 70px -50px ;
+    display: inline-block ;
+    color: #2b2e34 ;
+    font-weight: 500 ;
+    line-height: 1 ;
+    /* text-align: center; */
+    }
+    .user-job-designation h4 {
+        font-size: 14px ;
+        margin: 0px 0px 0px 105px !important;
+        display: inline-block ;
+        color: #2b2e34 ;
+        font-weight: 500 ;
+        line-height: 1 ;
+            width: auto ;
+    }
+    .user-job-designation p{
+        font-size: 14px ;
+        margin: -75px 0px 0px 150px ;
+        display: inline-block ;
+        color: #2b2e34 ;
+        font-weight: 500 ;
+        line-height: 1 ;
+    }
+    .main-title-user-profile .message{
+        display: initial ;
+    }
+    .main-title-user-profile-mobile .message-mobile img {
+        margin-right: 6px;
+        width: 11px;
+    }
+    .main-title-user-profile-mobile .message-mobile {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #004fc1;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 32px;
+        padding: 0 15px;
+            margin: -10px 0px 0px 25px;
+        border-radius: 4px;
+        border: 1px solid #004fc1;
+        background: 0 0;
+    }
+    .main-title-user-profile-mobile{
+        margin: 25px 24px 10px 95px ;
+    }
+    .verified-tick{
+        
+        margin: 0px 0px 0px 0px;
+    }
+    .user-work-exp-profile-title-education h2{
+        margin: 45px 0px 0px ;
+        text-align: left;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    .user-work-exp-profile-title-github h2{
+            margin: 0px 0px -45px 0px;
+    }
+    .work-experience-company-location-section {
+        margin-top: 0px;
+    }
+    .note-div {
+            margin: 0 0px;
+    }
+    .blockchain-verified-icon p{
+            margin: 0px 45px 0px 5px;
+    }
+    .user-startup-badge {
+        display: none !important  ;
+    }
+    .user-startup-badge-mobile img {
+        height: 34px;
+        display: block !important;
+    }
+    .user-startup-badge-mobile {
+        margin: -200px 20px ;
+        float: right ;
+    }
+    .education-content{
+        width: 100% !important;
+    }
+    .blockchain-verified-icon {
+        float: left ;
+            margin: -175px 82px;
+    }
+    .user-skill-parent-div{
+        margin: 100px 25px  20px ;
+    }
+    .copy-icon-url{
+        padding: 10px 40px ;
+        width: 100% ;
+        display: flex ;
+        border-radius: 2px ;
+        position: relative ;
+        flex: 1 ;
+        background: #e1e1e1 ;
+    }
+    .userEndorse-card-quote-github{
+        top: 50px ;
+    }
+    .github-profile-card-div{
+        box-shadow: none !important ;
+    }
+    .github-profile-card-div .github-profile-particular-section{
+        padding: 0px 30px ;
+    }
+    .endorse-experience-section-icons {
+            flex-direction: column;
+        align-items: center;
+        padding: 60px 0 0px 0px;
+        border-bottom: none !important ;
+    }
+
+    .spring-logo {
+        margin: -285px 60px 0px 0px;
+    }
+    .endorse-experience-section-icons button.verification-btn {
+        margin-left: 5px;
+    }
+    .endorse-user-btn .endorse-user-offline-selector-btn{
+        flex-direction: column ;
+        align-items: center ;
+        padding: 20px 0  ;
+        display: flex ;
+        margin: 0 0 10px 0 ;
+    }
+    .endorsee-popup-btn .endorsee-offline-selector-btn{
+        width: 146px ;
+        background: 0 0 ;
+        margin: 10px 0px 20px 0px ;
+    }
+    .footer-links {
+        width: 100%;
+            text-align: center;
+    }
+    .footer-links h5 {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .footer-links a {
+        padding: 0 7px;
+        display: inline-block;
+        text-align: center;
+    }
+    .border-bottom {
+        display: block;
+        width: 90%;
+    }
+}
